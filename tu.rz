@@ -1,0 +1,10 @@
+$TTL 1D
+@	IN SOA dns.tu.mail. root.tu.mail. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	IN	NS	dns.tu.mail.
+50	IN	PTR	dns.tu.mail.
+60	IN	PTR	mail.tu.mail.
