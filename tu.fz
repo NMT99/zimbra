@@ -1,0 +1,14 @@
+$TTL 1D
+@	IN SOA dns.tu.mail. root.tu.mail. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	IN	NS	dns.tu.mail.
+	IN	MX	1	mail.tu.mail.
+	IN	A	192.168.0.50
+dns	IN	A	192.168.0.50
+mail	IN	A	192.168.0.60
+www	IN	CNAME	dns.tu.mail.
+	
